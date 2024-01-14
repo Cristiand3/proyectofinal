@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+
+    <!-- Enlaces a tus estilos y fuentes personalizados -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/SundayRomantic-Regular DEMO.otf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <title>Keep Growing - Higiene</title>
+</head>
+<body>
+    <!-- Barra de navegación con Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <!-- Logo de la empresa como el elemento principal en la barra de navegación -->
+            <a class="navbar-brand navbar-logo" href="index.html">
+                <img src="img/logo-soluciones.png" alt="logo-keep" style="height: 100px;" class="d-inline-block align-top">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Enlaces de la barra de navegación -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <!-- Menú desplegable para "Productos" -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <!-- Opciones dentro del menú desplegable -->
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pages/higiene.html">Higiene</a></li>
+                            <li><a class="dropdown-item" href="pages/quimicos.html">Químicos</a></li>
+                            <li><a class="dropdown-item" href="pages/elementos-seguridad.html">Seguridad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contactos.html">Contactos</a>
+                    </li>
+                </ul>
+                <!-- Formulario de búsqueda -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Principal -->
+    <section id="banner" class="banner">
+        <div class="container text-center">
+            <h1 class="display-4">KEEP GROWING</h1>
+            <h2>Soluciones Empresariales</h2> 
+            <p>en todo el país</p>
+            <!-- Otros elementos del banner, como botones o imágenes, según sea necesario -->
+        </div>
+    </section>
+ 
+    <!-- Otras Secciones Destacadas -->
+    <!-- Sección de Valores -->
+    <section id="valores" class="valores py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestros Valores</h2>
+            <p class="lead text-center">Respeto, calidad y dedicación son la base de todo lo que hacemos. Trabajamos con productos de primera calidad para ofrecer soluciones superiores a empresas e instituciones.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Compromiso con la Calidad -->
+    <section id="compromiso" class="compromiso py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Compromiso con la Calidad</h2>
+            <p class="lead text-center">En Keep Growing, nos comprometemos a ofrecer productos de primera calidad para garantizar la satisfacción de nuestros clientes.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+<section id="contacto" class="contacto py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <p class="lead text-center">Para contactarte con nosotros, dirigente a la pantalla desde el boton de contacto, completa el formulario y un vendedor se estará contactando contigo en las proximas 24hs</p>
+        
+        <!-- Agrega el siguiente botón -->
+        <div class="text-center">
+            <a href="pages/contactos.html" class="btn btn-primary">Ir a Contactos</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Pie de Página -->
+    <footer class="py-4 bg-light">
+        <div class="container text-center">
+            <p>&copy; 2024 Keep Growing. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script de Bootstrap (JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
